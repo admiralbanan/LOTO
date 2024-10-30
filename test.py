@@ -1,5 +1,5 @@
-import pytest
-from loto import Player, Card, Bag, Game
+mport pytest
+from game import Player, Card, Bag, Game
 
 def test_card_creation():
     card = Card("Test Player")
